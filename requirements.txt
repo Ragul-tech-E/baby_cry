@@ -1,0 +1,6 @@
+Flask
+librosa
+numpy
+scikit-learn
+xgboost
+soundfile
