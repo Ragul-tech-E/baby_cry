@@ -3,10 +3,8 @@ import librosa
 import numpy as np
 from flask import Flask, request, jsonify
 
-if __name__ == "__main__":
-    app.run()
-
 app = Flask(__name__)
+
 
 SAMPLE_RATE = 16000  # Ensure 16kHz sample rate
 MODEL_PATH = "cry_xgboost_model.pkl"
